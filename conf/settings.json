@@ -1,0 +1,11 @@
+{
+    "project": {
+        "type": "p",
+        "dir": "/home/dana/Documents/Projects/Python/Libs/PkgTest"
+    },
+    "info": {
+        "__PP_NAME_BIG__": "PkgTest",
+        "__PP_NAME_SMALL__": "pkgtest",
+        "__PP_DATE__": "05/11/2023"
+    }
+}

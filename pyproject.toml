@@ -1,0 +1,33 @@
+# ------------------------------------------------------------------------------
+# Project : PkgTest                                                /          \
+# Filename: pyproject.toml                                        |     ()     |
+# Date    : 05/11/2023                                            |            |
+# Author  : cyclopticnerve                                        |   \____/   |
+# License : WTFPLv2                                                \          /
+# ------------------------------------------------------------------------------
+
+[build-system]
+requires = ["setuptools>=59.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "NAME"
+version = "0.0.0"
+description = ""
+authors = [{ name = "cyclopticnerve", email = "cyclopticnerve@gmail.com" }]
+readme = "README.md"
+license = { file = "LICENSE.txt" }
+classifiers = [
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = []
+dependencies = []
+requires-python = ">=3.10"
+
+[project.urls]
+Homepage = "https://github.com/cyclopticnerve/PkgTest"
+
+# -)

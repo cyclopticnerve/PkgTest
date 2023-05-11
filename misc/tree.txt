@@ -1,0 +1,31 @@
+.
+├── conf
+│   ├── blacklist.json
+│   ├── metadata.json
+│   ├── metadata.py
+│   └── settings.json
+├── docs
+│   └── ABOUT
+├── misc
+│   ├── checklist.txt
+│   ├── empty_class.py
+│   ├── empty_cli.py
+│   ├── empty_mod.py
+│   ├── screenshot.jpg
+│   ├── snippets.txt
+│   ├── style.txt
+│   ├── todo.txt
+│   └── tree.txt
+├── src
+│   └── pkgtest
+│       ├── __init__.py
+│       ├── mod_name_1.py
+│       └── mod_name_2.py
+├── tests
+│   └── ABOUT
+├── CHANGELOG.md
+├── LICENSE.txt
+├── MANIFEST.in
+├── pyproject.toml
+├── README.md
+└── requirements.txt
