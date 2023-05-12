@@ -12,14 +12,14 @@
 [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
 
 <!-- __RM_SHORT_DESC_START__ -->
-PP_SHORT_DESC
+
 <!-- __RM_SHORT_DESC_END__ -->
 
 <!-- ![Screenshot](misc/screenshot.jpg) -->
 
 ## Requirements
 <!-- __RM_PY_DEPS_START__ -->
-PP_PY_DEPS
+None
 <!-- __RM_PY_DEPS_END__ -->
 
 ## Installing
@@ -31,7 +31,7 @@ Download the 'Source Code (tar.gz)' file.
 Then install it using:
 ```bash
 foo@bar:~$ cd ~/Downloads
-foo@bar:~/Downloads$ python -m pip install PkgTest-PP_VERSION.tar.gz
+foo@bar:~/Downloads$ python -m pip install PkgTest-.tar.gz
 ```
 Or you can clone the git repo to get the latest (and often broken) code from the 
 dev branch:
@@ -44,7 +44,7 @@ Then build and install:
 ```bash
 foo@bar:~/Downloads/PkgTest$ python -m pip install build
 foo@bar:~/Downloads/PkgTest$ python -m build
-foo@bar:~/Downloads/PkgTest$ python -m pip install ./dist/pkgtest-PP_VERSION.tar.gz
+foo@bar:~/Downloads/PkgTest$ python -m pip install ./dist/pkgtest-.tar.gz
 ```
 
 ## Uninstalling

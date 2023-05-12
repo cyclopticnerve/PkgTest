@@ -702,7 +702,7 @@ def do_extras():
         the CHANGELOG file for the current project.
     """
 
-    # get pyplate/src dir
+    # get current dir
     dir_curr = os.getcwd()
 
     # make sure we are in project path
@@ -724,13 +724,14 @@ def do_extras():
         cmd_array = shlex.split(cmd)
         subprocess.run(cmd_array, stdout=f)
 
-    # go back to old dir
-    os.chdir(dir_curr)
-
-# ------------------------------------------------------------------------------
+    # update docs
+    # NB: this is ugly and stupid, but it's the only way to get pdoc3 to work
 
     # move into src dir
-    os.chdir(os.path.join(DIR_PRJ, 'src'))
+    dir_src = os.path.join(DIR_PRJ, 'src')
+    os.chdir(dir_src)
+
+    # get docs dir
     path_docs = os.path.join('..', 'docs')
     path_docs = os.path.abspath(path_docs)
 
@@ -739,6 +740,8 @@ def do_extras():
     cmd_array = shlex.split(cmd)
     subprocess.run(cmd_array)
 
+    # go back to old dir
+    os.chdir(dir_curr)
 
 # ------------------------------------------------------------------------------
 # Private functions
